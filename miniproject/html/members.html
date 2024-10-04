@@ -37,17 +37,7 @@
 
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
-	/*
-		async function savePassword() {
-			const hashedPassword = "chlrkd6whghkdlxld!!"; // 저장할 해시화된 비밀번호
 
-			await addDoc(collection(db, "password"), { password: hashedPassword });
-			console.log("비밀번호가 Firestore에 저장되었습니다.");
-		}
-
-		// 실행
-		savePassword(); // 이 함수를 호출하여 비밀번호를 저장합니다.
-	*/
     $(document).ready(async function() {
         // 프로필 리스트 불러오기
 		const membersCollection = collection(db, "members");
