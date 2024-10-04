@@ -331,7 +331,7 @@
 				};
 
 				$(function() {
-					$('.pic_prev').click(function() {
+					$(document).on('click', '.pic_prev', function() {
 						let pic_addr = $(this).prev('.pic_addr');
 						if (pic_addr.val() == '') {
 							alert('이미지 주소를 입력해주세요');
