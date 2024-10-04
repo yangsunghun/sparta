@@ -17,19 +17,19 @@ $(document).on('click', '[id^=member]', function() {
     // 각 멤버 ID에 따라 스크롤 위치 지정
     switch (memberId) {
         case 'member1':
-            scrollToPosition = 250;
+            scrollToPosition = 300;
             break;
         case 'member2':
-            scrollToPosition = 880;
+            scrollToPosition = 930;
             break;
         case 'member3':
-            scrollToPosition = 1520;
+            scrollToPosition = 1570;
             break;
         case 'member4':
-            scrollToPosition = 2150;
+            scrollToPosition = 2200;
             break;
         case 'member5':
-            scrollToPosition = 2800;
+            scrollToPosition = 2850;
             break;
         default:
             scrollToPosition = 0; // 기본값
