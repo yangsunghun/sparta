@@ -68,7 +68,8 @@ main { min-height: 100vh; padding: 100px 200px; }
 
 .profiles { width: 100%; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 70px; }
 .profiles + .profiles { margin-top: 50px; }
-.profiles li { position: relative; text-align: center; }
+.profiles li { position: relative; text-align: center; transition: .3s; }
+.profiles li:hover { transform: translateY(-5px); }
 .profiles li .img_box { width: 150px; height: 150px; margin: 0 auto; border-radius: 50%; background-color: #fff; }
 .profiles li .name { font-size: 24px; margin-top: 15px; }
 .profiles li .desc { font-weight: 300; }
