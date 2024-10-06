@@ -1,8 +1,20 @@
-## 6조의 미니프로젝트입니다.
+# 6조 미니프로젝트
 
-팀과 팀원을 소개하기 위한 웹사이트이며, 
+## 프로젝트 개요
+6조와 팀원을 소개하기 위한 웹사이트이며, 
 메인페이지, 팀원소개 페이지 방명록 페이지 총 3개페이지로 구성하였습니다. 
 
+
+## 기술스택
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+<img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
+<img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+<img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
+
+## 프로젝트 소개
 메인페이지는 하나의 레이아웃으로 구성되어있는데, 좌측에는 저희 팀의 슬로건을, 
 우측에는 팀원들의 사진과 한줄 소개 프로필을 배치하였습니다. 
 각 팀원의 프로필을 클릭 시
@@ -15,3 +27,8 @@
 방명록 페이지는 어떤 권한 없이 방명록을 작성할 수 있는 페이지입니다.
 이름과 비밀번호를 입력하면 누구나 방명록을 저장할 수 있습니다.
 그리고 작성할 때 입력하였던 비밀번호를 검증하여야 수정 삭제가 가능합니다.
+
+## 팀원소개
+|팀장|팀원|팀원|팀원|팀원|
+|:---:|:---:|:---:|:---:|:---:|
+|한다영|양성훈|조동희|구경필|김문식|
