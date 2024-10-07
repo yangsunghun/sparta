@@ -3,6 +3,8 @@
 ## 프로젝트 개요
 - 6조와 팀원을 소개하기 위한 웹사이트
 - 메인페이지, 팀원소개, 방명록 총 3개페이지로 구성
+- 제작 기간 : 2024-09-30 ~ 2024-10-07
+- 배포 링크 : https://yangsunghun.github.io/sparta/miniproject/html/index.html
 
 
 ## 기술스택
